@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  background-color: #FBA500;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+  margin-top: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+div {
+  border-radius: .3rem;
+}
+
+.yearSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+
+.year {
+  background-color: aliceblue;
+  width: 50%;
+}
+
+.course {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: 5fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  background-color:gainsboro;
+  font-weight: 600;
+}
+
+.courseTitle {
+  display: flex;
+  align-self: center;
+  padding: .5rem;
+  padding: 0;
+  margin: 0;
+  grid-column: 1 / 1; /* Item spans from column line 1 to 3 */
+  grid-row: 1 / 2; /* Item spans from row line 1 to 2 */
+}
+
+.courseTitle p {
+  color: #38405F;
+  padding: 1rem;
+  width: 10rem;
+  border-radius: .2rem;
+
+}
+
+.courseUnits {
+  padding: .5rem;
+  grid-column: 2 / 3; /* Item spans from column line 1 to 3 */
+  grid-row: 1 / 2; /* Item spans from row line 1 to 2 */
+}
+.courseCheck {
+  box-sizing: border-box;
+  padding: .5rem;
+  grid-column: 3 / 4; /* Item spans from column line 1 to 3 */
+  grid-row: 1 / 2; /* Item spans from row line 1 to 2 */
+  background-color: #ED4D6E;
+  height: 100%;
+}
+
+.courseCheckTrue {
+  box-sizing: border-box;
+  padding: .5rem;
+  grid-column: 3 / 4; /* Item spans from column line 1 to 3 */
+  grid-row: 1 / 2; /* Item spans from row line 1 to 2 */
+  background-color: #7DDF64;
+  height: 100%;
+}
+
+.courseCheckTrue:hover,
+.courseCheckFalse:hover {
+  cursor: pointer;
+}
+
+.courseCheckFalse {
+  box-sizing: border-box;
+  padding: .5rem;
+  grid-column: 3 / 4; /* Item spans from column line 1 to 3 */
+  grid-row: 1 / 2; /* Item spans from row line 1 to 2 */
+  background-color:#ED4D6E;
+  height: 100%;
+}
+
+.courseCandidates {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  height: auto;
+  width: 50%;
+  margin-left: 1rem;
+}
+
+.pickableClasses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.selectableCourseTrue {
+  background-color: coral;
+  margin: 1rem;
+  padding: 1rem;
+  width: 5rem;
+  height: 1.5rem;
+}
+.selectableCourseFalse {
+  margin: 1rem;
+  padding: 1rem;
+  width: 5rem;
+  height: 1.5rem;
+  background-color: aliceblue;
+}
+.selectableCourseFalse:hover,
+.selectableCourseTrue:hover {
+  background-color: whitesmoke;
+}
+
+.pickableCourse {
+  display: flex;
+  align-items: left;
+}
+.pickableCourse:hover {
+  cursor: pointer;
+  background-color: azure;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
