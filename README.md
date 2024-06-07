@@ -18,3 +18,6 @@
 
 ## What's next for The Course Planner
 - It would be really nice to access the CourseUp API and be able to select program planning worksheets for any program.
+
+## Figma Design
+- [Check out the Figma design here!](https://www.figma.com/proto/Mtneqx8WFsM3k824eUYp8E/Program-Planning?node-id=7-12&t=bAuFFuRgUNWQNdzP-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=7%3A12)
